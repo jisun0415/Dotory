@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "server": "cd server && nodemon server",
+    "dotory": "cd dotory && yarn start",
+    "start": "concurrently --kill-others-on-fail \"yarn server\" \"yarn dotory\""
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "concurrently": "^6.5.1",
+    "cors": "^2.8.5",
+    "create-react-app": "^1.2.1",
+    "crypto": "^1.0.1",
+    "express": "^4.17.2",
+    "express-fileupload": "^1.2.1",
+    "express-generator": "^4.16.1",
+    "fs": "^0.0.1-security",
+    "jade": "^1.11.0",
+    "moment": "^2.29.1",
+    "multer": "^1.4.4",
+    "path": "^0.12.7",
+    "yarn": "^1.22.17",
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

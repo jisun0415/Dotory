@@ -1,0 +1,14 @@
+.Template {
+    max-height: 100vh;
+  }
+  .title {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: black;
+    
+  }

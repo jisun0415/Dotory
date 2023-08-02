@@ -1,0 +1,116 @@
+.App{
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+.title {
+    width: 90vw;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    
+}
+.title2{
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.LIST{
+    flex-direction:row;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: goldenrod;
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.FONT{
+    font-size: 40px;
+    text-decoration: none;
+    color: GOLDENROD;
+    text-align:center;
+}
+.LIST a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 22px;
+}
+.LIST :hover{
+    color: goldenrod;
+    background-color: white;
+}
+.TEXTTITLE{
+    width:600px;
+    display:inline-block;
+    height:20px;
+    font-size:20px;
+}
+.TEXTAREADES{
+    width:600px;
+    height:400px;
+    font-size:20px;
+}
+.CREATELI{
+    list-style: none;
+    text-decoration:none;
+    text-align:center;
+    display:inline;
+}
+.DELETELI{
+    list-style: none;
+    text-decoration:none;
+    text-align:center;
+    display:inline;
+}
+
+.CREATE{
+    text-decoration: none;
+    font-size:1.25rem;
+    padding: 10px 20px;
+    color: black;
+    border-radius:12px;
+    border-color:lightblue;
+    border-style:groove;
+    background-color:WHITE;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.DELETE{
+    
+    font-size:1.25rem;
+    padding: 10px 20px;
+    color: black;
+    border-radius:12px;
+    border-color:orangered;
+    border-style:groove;
+    background-color:WHITE;
+    text-align: center;
+}
+.BUTTON{
+    font-size:1.25rem;
+    padding: 10px 20px;
+    color: WHITE;
+    border-radius:12px;
+    border-color:WHITE;
+    background-color:GOLDENROD;
+    text-align:center;
+}
+.BUTTON:hover{
+    background: WHITE;
+    color: GOLDENROD;
+}
+.DELETE:hover{
+    background:orangered;
+    color: WHITE;
+}
+.CREATE:hover{
+    background: lightblue;
+    color: WHITE;
+}
