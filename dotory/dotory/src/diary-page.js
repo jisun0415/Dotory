@@ -17,7 +17,7 @@ class DiaryPage extends Component { //자바랑 거의 비슷 subject를 객체�
       subject:{ title: 'DIARY'},
       welcome:{title:'', desc:''},
       contents:[
-        {id:1, title:'#01. 일기',desc:'오늘도 코딩은 정말 개빡쳐'},
+        {id:1, title:'#01. 일기',desc:'오늘도 코딩은 정말 재밌다.'},
         {id:2, title :'#02. 일상', desc: '오늘 눈이 내렸다'},
         {id:3, title :'#03. 자유', desc:' 이번달 알바비 100만원, 25일 크리스마스 케이크 예약'}
       ]
